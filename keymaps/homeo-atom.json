@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "homeo-atom:toggle",
+    "ctrl-alt-y": "homeo-atom:new_patient"
+  }
+}

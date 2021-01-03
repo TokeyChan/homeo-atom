@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle homeo-atom",
+        "command": "homeo-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "homeo-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "homeo-atom:toggle"
+            },
+            {
+              "label": "Neuer Patient",
+              "command": "homeo-atom:new_patient"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
