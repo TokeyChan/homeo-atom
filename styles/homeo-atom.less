@@ -21,13 +21,18 @@
   height: 50px;
 }
 
+.radio_div {
+  height: 50px;
+  text-align: left;
+}
+
 #birthdaytime {
 
 }
 
 .button {
-  color: black;
-  background-color: darkgreen;
+  color: white;
+  background-color: rgb(59, 88, 31);
   border: none;
   padding: 10px;
   margin-left: 30px;
@@ -36,6 +41,25 @@
   height: 50px;
 }
 
+.radio_button {
+  color: white;
+  background-color: rgb(59, 88, 31);
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 0px;
+  width: 40px;
+  height: 40px;
+}
+
+.radio_button:hover:not(.chosen_radio_button) {
+  background-color: rgb(72, 116, 38);
+}
+
+.chosen_radio_button {
+  background-color: rgb(87, 198, 81);
+}
+
 .button:hover {
-  opacity: 0.7;
+  background-color: rgb(72, 116, 38);
 }
