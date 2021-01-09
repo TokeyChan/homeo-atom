@@ -6,8 +6,10 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "homeo-atom:toggle",
-    "atom-workspace": "homeo-atom:new_patient"
+    "atom-workspace": [
+      "homeo-atom:toggle",
+      "homeo-atom:new_patient"
+    ]
   },
   "repository": "https://github.com/atom/homeo-atom",
   "license": "MIT",

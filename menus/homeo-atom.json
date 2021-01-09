@@ -25,6 +25,15 @@
           ]
         }
       ]
+    },
+    {
+      "label": "Homeo-Atom",
+      "submenu": [
+        {
+          "label": "Toggle",
+          "command": "homeo-atom:toggle"
+        }
+      ]
     }
   ]
 }
