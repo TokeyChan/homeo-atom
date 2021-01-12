@@ -8,7 +8,8 @@
   "activationCommands": {
     "atom-workspace": [
       "homeo-atom:toggle",
-      "homeo-atom:new_patient"
+      "homeo-atom:new_patient",
+      "homeo-atom:open_patient"
     ]
   },
   "repository": "https://github.com/atom/homeo-atom",
