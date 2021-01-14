@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle homeo-atom",
-        "command": "homeo-atom:toggle"
+        "label": "Neue Sitzung",
+        "command": "homeo-atom:new_session"
       }
     ]
   },
