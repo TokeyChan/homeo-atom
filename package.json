@@ -12,7 +12,7 @@
       "homeo-atom:open_patient"
     ]
   },
-  "repository": "https://github.com/atom/homeo-atom",
+  "repository": "https://github.com/TokeyChan/homeo-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
