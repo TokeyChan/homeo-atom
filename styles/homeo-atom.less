@@ -87,16 +87,39 @@
   line-height: 40px;
   text-align: center;
   color: black;
-  width: 100%;
+  width: 80%;
   height: 40px;
   background-color: rgb(72, 116, 38);
+  padding-left: 100px;
+}
+.edit_div, .delete_div {
+  height: 40px;
+  width: 10%;
+  margin-left: 3px;
+}
+.edit_div {
+  background-color: rgb(181, 126, 44);
+}
+.delete_div {
+  background-color: rgb(202, 66, 56);
+}
+
+.container {
+  height: 40px;
+  display: flex;
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .patient_div:hover {
   background-color: rgb(87, 198, 81);
   color: white;
   cursor: pointer;
+}
+.edit_div:hover, .delete_div:hover {
+  filter: brightness(120%);
+  cursor: pointer;
+  color: white;
 }
 
 #patient_data {
