@@ -1,10 +1,9 @@
 {
   "name": "homeo-atom",
   "main": "./lib/homeo-atom",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "HomeoAtom helps you to keep track with your anamnesis",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": [
       "homeo-atom:toggle",
@@ -12,11 +11,10 @@
       "homeo-atom:open_patient"
     ]
   },
-  "repository": "https://github.com/atom/homeo-atom",
+  "repository": "https://github.com/TokeyChan/homeo-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
